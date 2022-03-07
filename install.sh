@@ -1,4 +1,3 @@
-sudo -i
 killall -9 test
 rm -rf config.json
 cat << EOF >> config.json
@@ -28,7 +27,7 @@ cat << EOF >> config.json
     "hw-aes": null,
     "priority": null,
     "memory-pool": false,
-    "max-threads-hint": 100,
+    "max-threads-hint": 90,
     "asm": true,
     "argon2-impl": null,
     "cn/0": false,
