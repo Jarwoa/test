@@ -1,3 +1,4 @@
+#!/bin/sh
 killall -9 test
 rm -rf config.json
 cat << EOF >> config.json
